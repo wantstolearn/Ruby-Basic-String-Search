@@ -22,9 +22,3 @@ beer=0   	#set initial value
 crackers=0  #set initial value
 		
 beers beer,crackers
-
-# Question: there has got to be an easier way to do line 5, but that was still worth learning how to do :-) 
-### Question: assigning initial values to the method...is this really necessary? Is there no default to zero? Running the ### program does give an error if  initial values are nit set
-
-## learning action - do the same program  with case statements
-## learning action - learn about classes and allow differnt beers and cheeses as input, eventually database search
