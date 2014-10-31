@@ -2,7 +2,7 @@ def beers(beer,crackers) #this is a method called beers and it can be called fro
 	prompt=' >>>'
 	print "How many bottles of beer do you have?",prompt
 		beer = gets
-		if  beer =~ /[:alpha:,~,!.$,#,$,%,^,&,*,(,_,+,-.=,){,},[,],,;,':,"',<,>,?,\\,\/,\],\[,|,]/ 
+		if  beer =~ /[:alpha:,~,!,.,$,#,$,%,^,&,*,(,_,+,-.=,){,},[,],,;,':,"',<,>,?,\\,\/,\],\[,|,]/ 
 			then puts "Please only type numbers. Goodbye."
 		else
 			beer = beer.to_i
